@@ -4,14 +4,21 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  PainDiary: undefined;
+  MedsDiary: undefined;
+  Profile: undefined;
+  tabBarOptions: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type PainDiaryParamList = {
+  PainDiary: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type MedsDiaryParamList = {
+  MedsDiary: undefined;
 };
+
+export type  ProfileParamList = {
+  Profile: undefined;
+};
+
